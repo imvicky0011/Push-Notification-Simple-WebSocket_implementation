@@ -1,0 +1,16 @@
+{
+  "name": "push-server",
+  "version": "1.0.0",
+  "description": "This is a simple depiction of how a server pushes the event of change/notification with the associated client.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Vicky Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "websocket": "^1.0.34"
+  }
+}
